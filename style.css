@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#formcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 50px auto;
+    text-align: center;
+    background-color: gainsboro;
+    height: 250px;
+    
+}
+div{
+    padding: 8px;
+}
+div label{
+    margin-right: 15px;
+}
+div input{
+    width: 25%;
+}
+#formcontainer h1{
+    margin-top: 25px;
+}
+#submitbutton{
+    background-color: hotpink;
+    padding: 4px;
+    margin-top: 4px;
+}
+
+#result{
+    background-color: gainsboro;
+    margin: 60px auto;
+    height: 130px;
+    width: 45%;
+    text-align: center;
+    align-items: center;
+}
+#result p{
+    padding-top: 6px;
+    padding-bottom: 4px;
+}
+#weekcontainer{
+    background-color: gainsboro;
+    margin: 60px auto;
+    height: 70px;
+    width: 45%;
+    text-align: center;
+}
+#weekcontainer h2{
+    margin-top: 4px;
+    margin-bottom: 12px;
+    text-decoration: underline;
+}
+#yearcontainer{
+    background-color: gainsboro;
+    margin: 60px auto;
+    height: 270px ;
+    width: 45%;
+    text-align: center;
+}
+#yearcontainer h2{
+    margin-top: 4px;
+    margin-bottom: 12px;
+    text-decoration: underline;
+}
